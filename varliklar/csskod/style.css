@@ -24,6 +24,7 @@ h1 {
     height: 200px;
     margin: 10px;
     padding: 20px;
+    border-radius: 9px;
 }
 
 .bilgilendirme {
@@ -35,4 +36,5 @@ h1 {
     height: 200px;
     margin: 10px;
     padding: 20px;
+    border-radius: 9px;
 }
