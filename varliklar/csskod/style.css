@@ -11,7 +11,7 @@ ul li {
 }
 
 ul li:hover {
-    background-color: blue;
+    background-color: red;
     transition: 0.4s;
 }
 
