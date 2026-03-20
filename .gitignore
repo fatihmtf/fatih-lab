@@ -1,15 +1,3 @@
-# İşletim sistemi gereksizleri
-.DS_Store
-Thumbs.db
+#GİZLİ DOSYA 
 
-# VS Code ayar klasörü (isteğe bağlı)
-.vscode/
-
-# Log dosyaları (hata kayıtları)
-*.log
-
-# Eğer ileride npm kullanırsan bu klasör devasadır, asla yüklenmemeli
-node_modules/
-
-# Gizli kalması gereken şifre dosyaları
-.env
+style.css 
