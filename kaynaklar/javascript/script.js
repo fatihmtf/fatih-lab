@@ -1,35 +1,4 @@
-function kareAl() {
-    let sonuc = sayi*sayi;
-    console.log(sonuc);
-}
-function kareAl() {
-    let sonuc = sayi*sayi;
-    console.log(sonuc);
-}
-function kareAl() {
-    let sonuc = sayi*sayi;
-    console.log(sonuc);
-}
-function kareAl() {
-    let sonuc = sayi*sayi;
-    console.log(sonuc);
-}
-function kareAl() {
-    let sonuc = sayi*sayi;
-    console.log(sonuc);
-}
-function kareAl() {
-    let sonuc = sayi*sayi;
-    console.log(sonuc);
-}
-function kareAl() {
-    let sonuc = sayi*sayi;
-    console.log(sonuc);
-}
-function kareAl() {
-    let sonuc = sayi*sayi;
-    console.log(sonuc);
-}
+// DEĞER VE REFERANCE TİPLER 
 
-
-
+let a = 5;
+let b = 10;
