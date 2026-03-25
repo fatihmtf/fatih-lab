@@ -115,17 +115,38 @@ function clearAllTodos() {
 // console.log(document.forms.item(1).children); //Sayfadaki 2. formun içindeki tüm alt elemanları (çocuk etiketleri) bir liste olarak gösterir
 
 // console.log(document.getElementById("todo-form")); //Tüm sayfada arama başlatır sadece id="todo-form" yazan etiketi bulmaya çalışır 
-                                                   // sayfada varsa tüm özelliklerini obje olarak konsola yazdırır
+//                                                    //sayfada varsa tüm özelliklerini obje olarak konsola yazdırır
 
-// const x = document.getElementsByClassName("card-header bg-white");
-// console.log(x);
+// // const x = document.getElementsByClassName("card-header bg-white");
+// // console.log(x);
 
-// console.log(document.getElementsByTagName("div"));
-// const tagName = document.getElementsByTagName("div");
-// console.log(tagName);
+// // console.log(document.getElementsByTagName("div"));
+// // const tagName = document.getElementsByTagName("div");
+// // console.log(tagName);
 
-console.log(typeof document.querySelector("#todo-form"));
-console.log(document.querySelector("#todo-form").children);
+// // console.log(typeof document.querySelector("#todo-form"));
+// // console.log(document.querySelector("#todo-form").children);
+//ANNEDEN ÇOCUĞA ERİŞMEK
+
+const todoListe = document.querySelector(".list-group");
+const todo = document.querySelector(".list-group-item");
+const card = document.querySelector(".card");
+
+let value;
+value = todoListe;
+value = todoListe.children;
+value = todoListe.children[3].textContent = "DEĞİŞİK";
+
+
+
+
+
+
+
+
+
+
+console.log(value);
 
 
 
