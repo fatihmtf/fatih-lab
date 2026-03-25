@@ -1,16 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="varliklar/csskod/bootstrap.min.css">
-  <link rel="stylesheet" href="varliklar/csskod/style.css">
-  <title>deneme</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaxelios Todo List Sayfası</title>
+    <link href="kaynaklar/cssstyle/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="kaynaklar/cssstyle/style.css">
+    <style>
+        /* Görüntüdeki küçük estetik dokunuşlar */
+        body { background-color: #f8f9fa; }
+        .card { border-radius: 0; }
+        .list-group-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .delete-item {
+            cursor: pointer;
+            color: #007bff;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-  
-  
-<script src="varliklar/javascriptkod/bootstrap.bundle.min.js"></script>
-<script src="varliklar/javascriptkod/script.js"></script>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header bg-white">
+                    <h5 class="card-title mb-0">Todo List Sayfası</h5>
+                </div>
+                <div class="card-body">
+                    <form id="todo-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="todo-input" placeholder="Todo Giriniz">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-sm">Todo Ekleyin</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="card shadow-sm">
+                <div class="card-header bg-white">
+                    <h5 class="card-title mb-0">Todo Listesi</h5>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="filter-input" placeholder="Todo Arayınız">
+                    </div>
+                    
+                    <hr>
+
+                    <ul class="list-group" id="todo-list">
+                        <li class="list-group-item">Todo 1 <a href="#" class="delete-item">x</a></li>
+                        <li class="list-group-item">Todo 2 <a href="#" class="delete-item">x</a></li>
+                        <li class="list-group-item">Todo 3 <a href="#" class="delete-item">x</a></li>
+                        <li class="list-group-item">Todo 4 <a href="#" class="delete-item">x</a></li>
+                    </ul>
+
+                    <button id="clear-todos" class="btn btn-primary btn-sm mt-3">Tüm Todoları Temizle</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="kaynaklar/javascript/bootstrap.bundle.min.js"></script>
+<script src="kaynaklar/javascript/script.js"></script>
 </body>
 </html>
